@@ -1,0 +1,47 @@
+.game {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-win {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #4aa;
+  font-size: 48px;
+}
+
+.heading-player {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  color: slategray;
+}
+
+.game-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.history-wrapper {
+  position: absolute;
+  right: -145px;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.history-heading {
+  margin: 10px 0;
+  text-decoration: underline;
+  color: slategray;
+}
+
+.history-list {
+  margin: 0;
+  padding: 0;
+}

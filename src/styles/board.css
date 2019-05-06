@@ -1,0 +1,22 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33.333333333%
+}
+
+.row:first-child {
+  margin-top: 1px;
+}
+
+.row:last-child {
+  margin-bottom: 1px;
+}
